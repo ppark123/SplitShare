@@ -1,136 +1,105 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
-
-*{
-    font-family: "Open Sans";
-}
-
-.head {
-    background-color: white;
-    margin: 0 auto;
-    margin-top: 30px;
-}
-
-.header {
-    background-color: #f4e9D7;
-    display: inline-block;
-    width: 90%;
-    border-radius: 50px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-left: 10px;
-    margin-bottom: 30px;
-}
-
-.logo {
-    display: inline-block;
-    vertical-align: middle;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.header h3 {
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.headerProfile {
-    display: inline-block;
-    float: inline-end;
-    margin: 0 auto;
-    padding-right: 10px;
-}
-
-.headerProfile img {
-    border-radius: 50%;
-}
-
-nav {
-    display: inline-block;
-}
-
-nav ul {
-    list-style: none;
-    display: inline;
-}
-
-nav li {
-    display: inline;
-    padding-right: 30px;
-}
-
-a {
-    text-decoration: none;
-}
-
-a:visited {
-    color: black;
-}
-
-a:hover {
-    color: grey;
-}
-
-.image-button {
-    display: inline-block;
-    cursor: pointer;
-}
 
 
-.pic_row_1 {
-    padding: 40px; 
-    display: flex;
-    justify-content: space-between;
-    height: 300px; 
-    width: 1400px;
-}
+<!DOCTYPE html>
+<html lang="en">
 
-.text {
-    width: 1100px;
-    margin-left: 90px;
-    display: flex;
-    justify-content: space-between;
-}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="icon" type="images/x-icon" href="images/logo.png">
+    <link href="index.css" rel="stylesheet" type="text/css">
+</head>
+<body>
 
-.text_1 {
-    width: 300px;
-    height: 50px;
-    margin-left: 15px;
-    text-align: center;
-}
+    <div class="head">
+        <div class="header">
+            <img class="logo" src="images/logo.png" style="width: 50px; height: 50px; object-fit: cover;">
+            <h3>StuDonate</h3>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Create Post</a>
+                    </li>
+                    <li>
+                        <a href="myaccount.html">Account</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="headerProfile">
+            <img src="images/profile_image.jpg" style="width: 90px; height: 90px; object-fit: cover;">
+        </div>
+    </div>
+   <div class="list">
+    <h2>Current Listed Items:</h2>
+    
+   </div>
 
-.list{
-    height: 10px; 
-    width: 300px;
-    padding: 10px; 
-    margin-left: 30px;
-}
+   <div class="text_1">
+    <h6>[click on the item image to see more details]</h6>
+   </div>
 
-.frame {
-    display: flex;
-    background-color: #f4e9D7; 
-    height: 80px; 
-    width: 1300px;
-    border-radius: 500px; 
-  }
+  
+    <div class="pic_row_1">
 
-   .pfp {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%; 
-    margin-left: 1100px;
-  }
+        <a href="" class="image-button">
 
-  .pic {
-    width: 350px;
-    height: 350px;
-    border-radius: 20%; 
-    margin-right: 100px;
-    border: 5px solid #f4e9D7;
-  }
+        
+                <img class="pic" src="images/book.png">
+            
+        
+                <img class="pic" src="images/tool.png">
+           
+                <img class="pic" src="images/DVD.png">
+        </a>
+    </div>
+    <div class="text">
+        <h6> item name: some old text books for nerds </h6> 
+        <h6> item name:  tools</h6> 
+        <h6> item name:  20 cartoon DVD</h6> 
+       </div>
 
-  .logo {
-    width: 70px;
-    height: 70px;
-    border-radius: 50%; 
-    margin-left: 20px;
-  }
+    <div class="pic_row_1">
+
+        <a href="" class="image-button">
+
+        
+                <img class="pic" src="images/hoodie.png">
+        
+                <img class="pic" src="images/plants.png">
+           
+                <img class="pic" src="images/pot.png">
+        </a>
+    </div>
+    <div class="text">
+        <h6> item name: 2 vintage Nike hoodie</h6> 
+        <h6> item name: plant for decoration </h6> 
+        <h6> item name: only the pot!!!</h6> 
+       </div>
+
+    <div class="pic_row_1">
+
+        <a href="" class="image-button">
+
+        
+                <img class="pic" src="images/sofa.png">
+        
+                <img class="pic" src="images/table.png">
+           
+                <img class="pic" src="images/chair.png">
+        </a>
+    </div>
+    <div class="text">
+        <h6> item name: used sofa (not so new)</h6> 
+        <h6> item name: wood table</h6> 
+        <h6> item name: chair</h6> 
+       </div>
+
+
+</body>
+
+</html>
