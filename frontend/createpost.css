@@ -1,0 +1,51 @@
+.item_image_in_create_post {
+    padding-left: 150px;
+    padding-top: 160px;
+    border-radius: 30px 30px 30px 30px;
+    width: 509px;
+    height: 490px;
+    float: left;
+}
+
+.item_image_in_cp {
+    border-radius: 30px;
+}
+
+.item_descriptions{
+    padding-left: 90px;
+    padding-top: 160px;
+    float: left;
+}
+
+.item_description {
+    width: 484px;
+    height: 196px;
+    background-color: #E5E3E3;
+    border-radius: 30px;
+}
+
+.item_desc {
+    padding-inline-start: 25px;
+}
+
+.time_text_box {
+    width: 190px;
+    height: 43px;
+    background-color: #F4E9D7;
+    border: none;
+    border-radius: 30px;
+    padding-left: 25px;
+    float: left;
+}
+
+.location_text_box {
+    width: 190px;
+    height: 43px;
+    background-color: #F4E9D7;
+    border: none;
+    border-radius: 30px;
+    padding-left: 10px;
+    margin-left: 30px;
+    float: left;
+}
+
