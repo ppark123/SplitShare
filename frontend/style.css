@@ -11,8 +11,9 @@ body{
 
 .frame {
     background-color: #f5f5dc; /* Set beige background for the frame */
+    height: 500px; /* Resizes our image (we no longer need the HTML attributes) */
+    width: 500px;
     padding: 20px; /* Add padding to the frame */
-    border: 2px solid #ccc; /* Add a border to the frame */
     border-radius: 10px; /* Add rounded corners to the frame */
   }
 
