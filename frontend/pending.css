@@ -52,6 +52,18 @@ nav li {
     padding-right: 30px;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: grey;
+}
+
 .pendingDonation1,
 .pendingDonation2,
 .pendingDonation3 {
