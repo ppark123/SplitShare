@@ -3,14 +3,19 @@
 }
 
 body{
-    background:pink;
+    background-color: #fff; /* Set white background for the entire page */
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* 100% of the viewport height */
 }
 .about {
     margin-top: 60px; /* Adds spacing above the container */
 }
 
 .frame {
-    background-color: #f5f5dc; /* Set beige background for the frame */
+    background-color: #E4C79C; /* Set beige background for the frame */
     height: 500px; /* Resizes our image (we no longer need the HTML attributes) */
     width: 500px;
     padding: 20px; /* Add padding to the frame */
