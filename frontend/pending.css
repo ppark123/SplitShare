@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+* {
+    font-family: "Open Sans";
+}
+
 .head {
     background-color: white;
     margin: 0 auto;
@@ -108,7 +114,6 @@ a:hover {
 .buttons li {
     margin-top: 10px;
     margin-bottom: 10px;
-
 }
 
 .btn {
@@ -118,6 +123,7 @@ a:hover {
     background-color: white;
     border-color: white;
     border-style: none;
+    border-radius: 30px;
 }
 
 .status {
