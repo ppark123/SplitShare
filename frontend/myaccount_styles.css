@@ -93,6 +93,7 @@
     padding: 20px;
 }
 .name {
+    margin:10px;
 
 }
 
@@ -106,6 +107,16 @@
     flex-direction: column;
     
 }
+
+.edit {
+    width:20px;
+    height:20px;
+}
+.inline {
+    display: flex;
+    align-items: center;
+}
+
 
 .entire {
     display: flex;

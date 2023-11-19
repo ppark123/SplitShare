@@ -1,4 +1,3 @@
 function goBackHome(){
-    window.location.href = "../frontend/index.html";
-
+    window.location.href = "./index.html";
 }
