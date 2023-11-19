@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="createpost.css" />
   </head>
   <body>
+    <div class="logo_image"><img class="logo" src="images/logo.png" /></div>
+    <div class="profile">
+      <img class="profile_pic" src="images/profile_image.jpg" />
+    </div>
     <div class="item_image_in_create_post">
       <img
         class="item_image_in_cp"
@@ -35,24 +39,26 @@
       <div class="collection_heading">
         <h3>Collection Time And Location</h3>
       </div>
-      <div class="time_text_box">
-        <input
-          type="text"
-          id="Time"
-          name="Time"
-          placeholder="Time To Collect"
-          class="time_text_box"
-        />
-      </div>
-      <div class="location_text_box">
-        <input
-          type="text"
-          id="Location"
-          name="Location"
-          placeholder="Where To Collect"
-          class="location_text_box"
-        />
-      </div>
+      <input
+        type="text"
+        id="Time"
+        name="Time"
+        placeholder="Time To Collect"
+        class="time_location_text_box"
+      />
+      <input
+        type="text"
+        id="Location"
+        name="Location"
+        placeholder="Where To Collect"
+        class="time_location_text_box"
+      />
+    </div>
+    <div class="cancel_button">
+      <div class="button_text">cancel</div>
+    </div>
+    <div class="post_button">
+      <div class="button_text">post</div>
     </div>
   </body>
 </html>
