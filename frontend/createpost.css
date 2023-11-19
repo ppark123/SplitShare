@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+*{font-family: "Open Sans";}
+
 .item_image_in_create_post {
     padding-left: 150px;
     padding-top: 160px;
@@ -17,6 +21,15 @@
     float: left;
 }
 
+.item_title_cp{
+    font-family: "Open Sans";
+    width: 484px;
+    resize: none;
+    font-weight: bolder;
+    font-size: 60px;
+    max-height: 75px;
+    border-color: transparent;
+}
 .item_description {
     width: 484px;
     height: 196px;
@@ -25,7 +38,13 @@
 }
 
 .item_desc {
-    padding-inline-start: 25px;
+    /* padding-inline-start: 25px; */
+    width: 475px;
+    height: 196px;
+    background-color: #E5E3E3;
+    resize: none;
+    border-color: transparent;
+    border-radius: 20px;
 }
 
 
