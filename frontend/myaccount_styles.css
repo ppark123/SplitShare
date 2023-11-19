@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+
+* {
+    font-family: "Open Sans", sans-serif;
+}
+
+.container_rectangles {
+    padding: 20px;
+    
+}
+.centered_elements, .stars {
+    align-items: center;
+}
+
+.stars, span {
+    margin: auto;
+}
+
+.rectangle {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    background-color: #F4E9D7;
+    border-radius: 25%;
+    text-align: center; 
+    line-height: 100px;
+    margin: 20px;
+}
+
+.content {
+    margin:10px;
+}
+
+.all_elements_in_container {
+    float: left;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom:160px;
+    padding-top: 160px;
+}
+
+.profilepicture {
+    border-radius: 50%; /*makes a circle*/
+    height: 100px;
+    width: 100px;
+    border: 1px solid white;
+    display:block;
+    margin: auto;
+}
+
+.rec_title {
+    text-align: left;
+}
+
+.number {
+    text-align: center;
+
+}
+
+.star {
+    width: 30px;
+    height: 30px;
+}
+.separated_blocks {
+    padding: 20px;
+}
+.name {
+
+}
+
+.info {
+
+}
