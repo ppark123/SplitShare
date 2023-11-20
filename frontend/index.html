@@ -1,39 +1,107 @@
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
-    <link rel="icon" type="images/x-icon" href="images/logo.png" />
-    <style>
-      .frame {
-        display: flex;
-        background-color: #f4e9d7;
-        height: 80px;
-        width: 1000px;
-        border-radius: 500px;
-      }
+    <link rel="icon" type="images/x-icon" href="images/logo.png">
+    <link href="index.css" rel="stylesheet" type="text/css">
+</head>
+<body>
 
-      .pfp {
-        width: 90px;
-        height: 80px;
-        border-radius: 50%;
-        margin-left: 820px;
-      }
-
-      .logo {
-        width: 70px;
-        height: 70px;
-        border-radius: 50%;
-        margin-left: 20px;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="frame">
-      <img class="logo" src="images/logo.png" alt="logo" />
-      <h2>StuDonate</h2>
-      <img class="pfp" src="images/profile_image.jpg" alt="Profile Picture" />
+    <div class="head">
+        <div class="header">
+            <img class="logo" src="images/logo.png" style="width: 50px; height: 50px; object-fit: cover;">
+            <h3>StuDonate</h3>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="createpost.html">Create Post</a>
+                    </li>
+                    <li>
+                        <a href="myaccount.html">Account</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="headerProfile">
+            <img src="images/profile_image.jpg" style="width: 90px; height: 90px; object-fit: cover;">
+        </div>
     </div>
-  </body>
+   <div class="list">
+    <h2>Current Listed Items:</h2>
+    
+   </div>
+
+   <div class="text_1">
+    <h6>[click on the item image to see more details]</h6>
+   </div>
+
+  
+    <div class="pic_row_1">
+
+        <a href="" class="image-button">
+
+        
+                <img class="pic" src="images/book.png">
+            
+        
+                <img class="pic" src="images/tool.png">
+           
+                <img class="pic" src="images/DVD.png">
+        </a>
+    </div>
+    <div class="text">
+        <h6> item name: some old text books for nerds </h6> 
+        <h6> item name:  tools</h6> 
+        <h6> item name:  20 cartoon DVD</h6> 
+       </div>
+
+    <div class="pic_row_1">
+
+        <a href="" class="image-button">
+
+        
+                <img class="pic" src="images/hoodie.png">
+        
+                <img class="pic" src="images/plants.png">
+           
+                <img class="pic" src="images/pot.png">
+        </a>
+    </div>
+    <div class="text">
+        <h6> item name: 2 vintage Nike hoodie</h6> 
+        <h6> item name: plant for decoration </h6> 
+        <h6> item name: only the pot!!!</h6> 
+       </div>
+
+    <div class="pic_row_1">
+
+        <a href="" class="image-button">
+
+        
+                <img class="pic" src="images/sofa.png">
+        
+                <img class="pic" src="images/table.png">
+           
+                <img class="pic" src="images/chair.png">
+        </a>
+    </div>
+    <div class="text">
+        <h6> item name: used sofa (not so new)</h6> 
+        <h6> item name: wood table</h6> 
+        <h6> item name: chair</h6> 
+       </div>
+
+
+</body>
+
 </html>
