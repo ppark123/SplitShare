@@ -1,13 +1,21 @@
 # StuDonate - NWPlus Hack Camp Build Day
 **StuDonate** is a software application that allows students to get items that they might need for free.
 
-Problem: The financial pressure on students has been growing, especially those form working class backgrounds.
+**Problem:**
+The financial pressure on students has been growing, especially those from working-class backgrounds.
 
-Solution: Website where university students are able to share items they don't need and want to give out to others. 
+**Solution:**
+A website where university students are able to donate items they don't need and want to give out to others. 
 
-How we built it: HTML, JS, CSS
+**How we built it:**
+- HTML
+- CSS
+- JS
 
-Challenges we ran into: 
+**Challenges we ran into:**
+- There was a learning curve to using GitHub collaboratively for the first time
+- Figuring out how to implement user interaction
 
-Future directions:
-
+**Future directions:**
+- Implementing a map for users to explore nearby offers
+- 
