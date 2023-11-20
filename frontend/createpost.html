@@ -53,7 +53,7 @@
     </div>
 
     <div class="item_descriptions">
-      <textarea class="item_title_cp" placeholder="Item Name"> </textarea>
+      <textarea class="item_title_cp" placeholder="Item Name"></textarea>
       <div class="item_subtitle"><h3>Giving Away:</h3></div>
       <textarea
         class="item_desc"
@@ -80,8 +80,15 @@
     <div class="cancel_button" onclick="redirectToHome()">
       <div class="button_text">cancel</div>
     </div>
-    <div class="post_button" onclick="redirectToHome()">
+    <div class="post_button" onclick="showPopup()">
       <div class="button_text">post</div>
+    </div>
+
+    <div class="popup" id="postPopup">
+      <div class="popup-content">
+        <span class="close" onclick="redirectToHome()">&times;</span>
+        <p>Your post has been submitted successfully!</p>
+      </div>
     </div>
   </body>
 
