@@ -3,9 +3,65 @@
 .star {
     background-color: #E5E3E3;
     clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
-    width: 30px;
-    height: 30px;
+    width: 60px;
+    height: 60px;
     display: inline-block
+}
+a {
+    text-decoration: none;
+}
+
+.head {
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.header {
+    background-color: #f4e9D7;
+    display: inline-block;
+    width: 90%;
+    border-radius: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.header h3 {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.headerProfile {
+    display: inline-block;
+    float: inline-end;
+    margin: 0 auto;
+    padding-right: 10px;
+}
+
+.headerProfile img {
+    border-radius: 50%;
+}
+
+nav {
+    display: inline-block;
+}
+
+nav ul {
+    list-style: none;
+    display: inline;
+}
+
+nav li {
+    display: inline;
+    padding-right: 30px;
 }
 
 .box {
@@ -59,7 +115,7 @@ span {
     background-color: #F4E9D7;
     border-radius: 10%;
     line-height: 10px;
-    margin: 50px;
+    margin: 10px;
 }
 
 .content {
@@ -97,11 +153,23 @@ span {
 }
 
 .name {
+<<<<<<< HEAD
+    margin:10px;
+    font-size:60px;
+
+}
+
+.info {
+    align-items: center;
+    font-size: 45;
+}
+=======
     margin: 10px;
 
 }
 
 .info {}
+>>>>>>> 809ce0cf9ba888a92d980af82aebdeb0ffd2ec10
 
 .group_column {
     display: flex;
@@ -111,8 +179,13 @@ span {
 }
 
 .edit {
+<<<<<<< HEAD
+    width:40px;
+    height:40px;
+=======
     width: 20px;
     height: 20px;
+>>>>>>> 809ce0cf9ba888a92d980af82aebdeb0ffd2ec10
 }
 
 .inline {
@@ -127,7 +200,7 @@ span {
     flex-direction: column;
     margin: 20px;
     padding-left: 150px;
-    padding-top: 160px;
+    padding-top: 50px;
     padding-right: 150px;
     padding-bottom: 160px;
 }

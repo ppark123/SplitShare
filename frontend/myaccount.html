@@ -14,15 +14,31 @@
 
 
 <body>
-    <div class="logo-image"> <a href="./index.html"><img class="logo" src="images/logo.png" onclick="goBackHome()"></a></div>
+    <div class="head">
+        <div class="header">
+            <img class="logo" src="images/logo.png" style="width: 50px; height: 50px; object-fit: cover;">
+            <h3>StuDonate</h3>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Create Post</a>
+                    </li>
+                    <li>
+                        <a href="myaccount.html">Account</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!-- <div class="logo-image"> <a href="./index.html"><img class="logo" src="images/logo.png" onclick="goBackHome()"></a></div> -->
         <div class="entire"> 
             <div class="all_elements_in_container">
                 <div class="centered_elements">
-
-                    <img 
-                    class="profilepicture" 
-                    src="images/profile_image.jpg"
-                    >
+                    <img class="profilepicture" src="images/profile_image.jpg" style="width: 400px; height: 400px; object-fit: cover;">
 
                     <span class="stars">
                         <div class="star" id="active_star"></div>
@@ -46,20 +62,21 @@
                         3rd year Computer Science
 
                     </p>
+                    <div class="rectangle_container"> 
+                        <div class="rectangle"> 
+                            <h4 class="rec_title">Items donated:</h4>
+                            <h3 class="number" id="donated">20</h3>
+                        </div> 
+        
+                        <div class="rectangle"> 
+                            <h4 class="rec_title">Items received:</h4>
+                            <h3 class="number">8</h3>
+                        </div>
+                    </div>
                 </div>
             </div>
 
-            <div class="rectangle_container"> 
-                <div class="rectangle"> 
-                    <h4 class="rec_title">Items donated:</h4>
-                    <h3 class="number" id="donated">20</h3>
-                </div> 
-
-                <div class="rectangle"> 
-                    <h4 class="rec_title">Items received:</h4>
-                    <h3 class="number">8</h3>
-                </div>
-            </div>
+            
         </div>
         
 
