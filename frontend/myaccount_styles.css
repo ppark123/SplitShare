@@ -9,7 +9,17 @@
 }
 a {
     text-decoration: none;
+    color:black;
 }
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: grey;
+}
+
 
 .head {
     background-color: white;
@@ -153,7 +163,6 @@ span {
 }
 
 .name {
-<<<<<<< HEAD
     margin:10px;
     font-size:60px;
 
@@ -163,13 +172,6 @@ span {
     align-items: center;
     font-size: 45;
 }
-=======
-    margin: 10px;
-
-}
-
-.info {}
->>>>>>> 809ce0cf9ba888a92d980af82aebdeb0ffd2ec10
 
 .group_column {
     display: flex;
@@ -179,13 +181,8 @@ span {
 }
 
 .edit {
-<<<<<<< HEAD
     width:40px;
     height:40px;
-=======
-    width: 20px;
-    height: 20px;
->>>>>>> 809ce0cf9ba888a92d980af82aebdeb0ffd2ec10
 }
 
 .inline {
