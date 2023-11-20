@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
-*{
+* {
     font-family: "Open Sans";
 }
 
@@ -60,7 +60,6 @@ nav li {
 
 a {
     text-decoration: none;
-    color: black;
 }
 
 a:visited {
@@ -71,92 +70,91 @@ a:hover {
     color: grey;
 }
 
-.button {
+.image-button {
     display: inline-block;
     cursor: pointer;
-
- background-color: black; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  border-radius: 50px;
-}
-
-.space {
-    width: 1100px;
-    margin-left: 130px;
-    display: flex;
-    justify-content: space-between;
 }
 
 
 .pic_row_1 {
-    padding: 40px; 
+    padding: 10px;
     display: flex;
-    justify-content: space-between;
-    height: 300px; 
     width: 1400px;
 }
 
 .text {
-    width: 1150px;
-    margin-left: 85px;
+    width: 1100px;
     display: flex;
-    justify-content: space-between;
 }
 
 .text_1 {
     width: 300px;
     height: 50px;
-
+    margin-left: 15px;
     text-align: center;
 }
 
-.text_1 h6{
-    font-weight: normal;
-}
-
-.list{
-    height: 10px; 
-    width: 600px;
-    padding: 10px; 
+.list {
+    height: 10px;
+    width: 300px;
+    padding: 10px;
     margin-left: 30px;
-}
-
-.list h2 {
-    font-weight: normal;
 }
 
 .frame {
     display: flex;
-    background-color: #f4e9D7; 
-    height: 80px; 
+    background-color: #f4e9D7;
+    height: 80px;
     width: 1300px;
-    border-radius: 500px; 
-  }
+    border-radius: 500px;
+}
 
-   .pfp {
+.pfp {
     width: 80px;
     height: 80px;
-    border-radius: 50%; 
+    border-radius: 50%;
     margin-left: 1100px;
-  }
+}
 
-  .pic {
+.pic {
     width: 350px;
     height: 350px;
-    border-radius: 20%; 
-    margin-right: 100px;
+    border-radius: 20%;
     border: 5px solid #f4e9D7;
-  }
+    display: inline-block;
+}
 
-  .logo {
+.logo {
     width: 70px;
     height: 70px;
-    border-radius: 50%; 
+    border-radius: 50%;
     margin-left: 20px;
-  }
+}
+
+.post {
+    display: inline-block;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.post h6 {
+    display: block;
+}
+
+.button {
+    display: inline-block;
+    cursor: pointer;
+
+    background-color: black;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50px;
+}
