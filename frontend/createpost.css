@@ -4,7 +4,7 @@
 
 .item_image_in_create_post {
     padding-left: 150px;
-    padding-top: 160px;
+    padding-top: 50px;
     border-radius: 30px 30px 30px 30px;
     width: 509px;
     height: 490px;
@@ -17,7 +17,7 @@
 
 .item_descriptions{
     padding-left: 90px;
-    padding-top: 160px;
+    padding-top: 50px;
     float: left;
 }
 
@@ -141,6 +141,7 @@
     display: inline-block;
     margin: 0 auto;
     padding-right: 10px;
+    float: inline-end
 }
 
 .headerProfile img {
