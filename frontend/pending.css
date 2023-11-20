@@ -17,7 +17,7 @@
     padding-top: 20px;
     padding-bottom: 20px;
     margin-left: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .logo {
@@ -75,8 +75,8 @@ a:hover {
 .pendingDonation3 {
     background-color: #f4e9D7;
     border-radius: 50px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     margin-left: 15px;
     margin-right: 15px;
     margin-bottom: 30px;
@@ -91,7 +91,7 @@ a:hover {
     line-height: 25px;
     text-align: center;
     margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .donationInfo img {
@@ -101,8 +101,8 @@ a:hover {
 
 .arrow {
     filter: invert(100%);
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .buttons {
