@@ -56,6 +56,11 @@ body{
     margin: 70px auto;
 }
 
+.button_text{
+    font-weight: normal;
+
+}
+
 .button:hover {
 background: #E4C79C;
 color: white;
