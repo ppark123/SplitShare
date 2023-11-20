@@ -15,7 +15,10 @@ A website where university students are able to donate items they don't need and
 **Challenges we ran into:**
 - There was a learning curve to using GitHub collaboratively for the first time
 - Figuring out how to implement user interaction
+- Formatting the explore page layout
 
 **Future directions:**
 - Implementing a map for users to explore nearby offers
-- 
+- Chat feature for Giver and Recipient to communicate
+- Adding short descriptions for each post on the explore page
+
