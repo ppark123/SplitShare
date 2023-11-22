@@ -11,6 +11,7 @@ A website where university students are able to donate items they don't need and
 - HTML
 - CSS
 - JS
+- Figma
 
 **Challenges we ran into:**
 - There was a learning curve to using GitHub collaboratively for the first time
